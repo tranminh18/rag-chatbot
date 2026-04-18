@@ -1,0 +1,9 @@
+Python là ngôn ngữ lập trình bậc cao, dễ đọc và linh hoạt.
+Được tạo bởi Guido van Rossum năm 1991.
+
+RAG là viết tắt của Retrieval-Augmented Generation.
+RAG giúp LLM trả lời dựa trên dữ liệu thực tế của bạn.
+Gồm 3 bước: retrieve (tìm kiếm), augment (bổ sung), generate (tạo câu trả lời).
+
+Vector database lưu trữ embeddings để tìm kiếm ngữ nghĩa.
+FAISS là thư viện của Meta để tìm kiếm vector nhanh.
