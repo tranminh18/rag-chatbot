@@ -1,9 +1,230 @@
-Python là ngôn ngữ lập trình bậc cao, dễ đọc và linh hoạt.
-Được tạo bởi Guido van Rossum năm 1991.
+📅
+01/07/2002
+📞
+0387026932
+✉
+tranquangminh172002@gmail.
+com
+🌐
+https://www.facebook.com/Tr
+anQuangMinh.3304673/
+
+https://github.com/tranminh18
+
+Cầu Giấy , Hà Nội
+Các kỹ năng
+✨
+Kỹ năng chuyên môn
+✨
+Kỹ năng mềm
+Chứng chỉ
+2024
+Tham gia khóa đào tạo LTV Python tại T3H
+Chứng nhận hoàn thành khoá học Python
+2023
+Sở thích
+Đọc sách, đá bóng, nghiên cứu tài liệu
+TRẦN QUANG MINH
+LẬP TRÌNH VIÊN
+- Ngắn hạn : Tôi là sinh viên ngành Công nghệ Thông tin với mục tiêu trở
+thành một lập trình viên chuyên nghiệp trong tương lai. Tôi tìm kiếm cơ
+hội thực tế để có thể học hỏi thêm về các công nghệ tiên tiến, áp dụng
+các kỹ năng lập trình, phân tích hệ thống và phát triển phần mềm trong
+môi trường thực tế. Tôi mong muốn được làm việc trong một đội ngũ
+sáng tạo, nơi tôi có thể phát huy khả năng giải quyết vấn đề và cải tiến
+quy trình công nghệ.
+- Dài hạn: Muốn trở thành lập trình full stack.
+Học vấn
+ĐẠI HỌC ĐIỆN LỰC
+2020 - 2025
+Công nghệ thông tin
+• Ngành theo học : Công Nghệ Thông Tin 
+• Chuyên ngành : Công Nghệ Phần Mềm
+•  Sinh viên năm : Năm Cuối
+•  Các khóa học khác có tham gia : 
+•  Lập trình Python trung tâm T3H.
+•  Tiếng anh trung tâm langmaster.
+•  Được chọn tham gia học tiếng nhật ở Đại Học Điện Lực.
+Kinh nghiệm làm việc
+Công ty MOBIWORK VIETNAM (MBW Digital)
+2/2026 - Đến nay
+Python Developer — Frappe / ERPNext
+Công nghệ: Python, JavaScript, Jinja2, HTML, CSS, Bash, MariaDB,
+Redis, Docker, Git, Frappe Framework, ERPNext v15/v16
+Mô tả dự án:
+Tham gia phát triển và tùy chỉnh nền tảng MBWNext — bộ giải pháp
+ERP dành riêng cho thị trường Việt Nam, xây dựng trên Frappe
+Framework và ERPNext. Hệ thống bao gồm các module: Bán hàng, Mua
+hàng, Kho, Kế toán VAS, Phân phối, Nhân sự, Localization tiếng Việt.
+Triển khai thực tế cho nhiều khách hàng doanh nghiệp như RTG, Nissin
+Shoji Vietnam, Cozy, Sinhthai HCM.
+Nhiệm vụ chính:
+• Viết Server Script và API endpoint bằng Python trong Frappe để xử lý
+nghiệp vụ theo yêu cầu khách hàng
+• Customize logic ERPNext bằng Python thông qua Hooks và override
+method: xử lý sự kiện DocType, tự động hóa quy trình nghiệp vụ
+• Thiết kế Custom Print Format (Quotation, chứng từ) bằng Jinja2 +
+HTML/CSS, hỗ trợ đa công ty
+• Triển khai và cấu hình môi trường Frappe ERPNext trên Ubuntu
+Server; viết bash script tự động hóa quy trình cài đặt
+• Tích hợp API bên ngoài vào ERPNext (VNPT, DMS, eContract) theo
+tài liệu kỹ thuật
+• Thực hiện backup, restore database giữa môi trường production và
+local bằng Bench CLI 
+Giá trị mang lại:
+• Tự xây dựng tài liệu kỹ thuật nội bộ về Frappe/ERPNext (ORM,
+Hooks, DocType, Query Builder) phục vụ onboarding team
+• Triển khai thực tế cho các khách hàng: RTG, Nissin Shoji Vietnam
 
-RAG là viết tắt của Retrieval-Augmented Generation.
-RAG giúp LLM trả lời dựa trên dữ liệu thực tế của bạn.
-Gồm 3 bước: retrieve (tìm kiếm), augment (bổ sung), generate (tạo câu trả lời).
+Công ty Trung Anh Group Thuộc tập
+đoàn AMCARE VN 
+8/2025 - 2/2026
+Các dự án tham gia 
+1. BeautyCare - Healthcare Management System
+Công nghệ: Python, Django REST Framework, PostgreSQL, AWS S3,
+JWT, Docker
+Mô tả dự án:
+Hệ thống quản lý chăm sóc khách hàng sau phẫu thuật thẩm mỹ với 4
+vai trò người dùng (Customer, Nurse, Doctor, Staff).
+Nhiệm vụ và thành tựu chính:
+• Thiết kế Custom User Model với JWT Authentication, Role-Based
+Access Control và Soft Delete pattern
+• Xây dựng Template-based Care Plan Engine với nested serializers để
+tự động tạo kế hoạch chăm sóc
+• Tích hợp AWS S3 với presigned URLs: giảm 70% thời gian upload,
+cho phép client upload trực tiếp
+• Tùy chỉnh Django Admin với permission-based filtering, inline editing
+và bulk actions
+• Optimize database queries với select_related/prefetch_related,
+giảm 60% query time
+• Phát triển 15+ RESTful API endpoints với đầy đủ Swagger
+documentation
 
-Vector database lưu trữ embeddings để tìm kiếm ngữ nghĩa.
-FAISS là thư viện của Meta để tìm kiếm vector nhanh.
+2. AI Chatbot - Document Intelligence System
+Công nghệ: Python, Django, FastAPI, PostgreSQL, MinIO, Milvus, Redis,
+Docker, LangChain, OpenAI API
+Mô tả dự án:
+Hệ thống Chatbot tìm kiếm tài liệu thông minh với RAG (Retrieval-
+Augmented Generation) và phân quyền người dùng. Áp dụng kiến trúc
+microservices để đảm bảo scalability.
+Nhiệm vụ và thành tựu chính:
+• Thiết kế UserAdmin model kế thừa AbstractUser với 3 role hierarchy
+(Admin, Manager, User)
+• Tùy chỉnh Django Admin UI với Tailwind/Bootstrap, tạo dashboard
+widgets và custom filters
+• Tích hợp Django với FastAPI: RESTful API cho upload/delete/get
+documents (PDF, DOCX, TXT)
+• Implement OTP Security Layer (8 số, 5 phút expiration) với Redis
+cache để bảo vệ CRUD operations
+• Xây dựng document pipeline: Upload to MinIO → Chunking →
+Embedding (OpenAI) → Store in Milvus
+• Phát triển Hybrid Search kết hợp Vector similarity (semantic) +
+BM25 (keyword)
+• Xây dựng RAG Pipeline với LangChain: document processing,
+retrieval, reranking, stream response từ GPT-4
+• Tạo React upload UI với drag-drop, preview modal, progress bar,
+toast notification
+• Cấu hình Docker Compose cho 7 services với health checks và
+restart policies
+Công ty VIỆN CÔNG NGHỆ TUMIKI
+5/2025 - 7/2025
+ Fresher Back End
+Công nghệ: Dart, Flutter, HTML, C++, CMake, Ruby, Swift, Python,
+Docker, Git
+Mô tả dự án:
+Tham gia phát triển hệ thống quản lý nhân sự (HRM) bao gồm hai ứng
+dụng: HRM User (cho nhân viên) và HRM Admin (cho quản trị viên), cùng
+hệ thống backend xử lý nghiệp vụ. Dự án hướng đến xây dựng hệ sinh
+thái quản lý nhân sự thông minh, đa nền tảng.
+Nhiệm vụ và thành tựu chính:
+• Thiết kế, phát triển và duy trì ứng dụng di động đa nền tảng bằng
+Flutter (Android, iOS) cho nhân viên (HRM User) và quản trị (HRM
+Admin).
+• Xây dựng kiến trúc frontend: quản lý phân quyền người dùng (Admin,
+Manager, User), tạo giao diện thân thiện sử dụng HTML & Dart.
+• Phát triển tính năng chấm công, quản lý ca làm, phê duyệt đơn từ và
+thông báo nội bộ.
+• Triển khai màn hình Dashboard, tổng hợp dữ liệu thời gian thực, báo
+cáo công/quỹ lương.
+• Thiết kế hệ thống backend sử dụng Python, xây dựng API với FastAPI,
+kết nối cơ sở dữ liệu và triển khai Docker hóa toàn dự án.
+• Phối hợp xây dựng hệ thống xác thực OTP, phân quyền truy cập,
+upload/download file trên nền tảng MinIO, quản lý dữ liệu trên hệ
+thống file.
+• Áp dụng quy trình phát triển phần mềm chuẩn Agile/Scrum; làm việc
+nhóm với Git, theo dõi tiến độ qua Jira.
+• Tích lũy kinh nghiệm xử lý lỗi, bảo trì, tối ưu và deploy ứng dụng thực
+tế lên môi trường test/production.
+Giá trị mang lại:
+• Đóng góp tạo ra sản phẩm HRM hoàn chỉnh, vận hành ổn định cho
+nhiều người dùng doanh nghiệp.
+• Học hỏi thực tế từ cycle phát triển ứng dụng lớn, làm việc nhóm
+chuyên nghiệp, quy trình DevOps chuẩn.
+
+Công ty NEWWAVE SOLUTIONS
+2/2025 - 3/2025
+Thực tập Back End
+Công nghệ: Python, Django, FastAPI, PostgreSQL, MinIO, Milvus,
+Docker, Git
+Mô tả dự án:
+Phát triển hệ thống Chatbot nội bộ hỗ trợ tìm kiếm tài liệu thông minh,
+có phân quyền người dùng và tích hợp LLM.
+Nhiệm vụ và thành tựu chính:
+• Thiết kế và phát triển hệ thống quản trị người dùng với phân quyền rõ
+ràng (Admin, Manager, User).
+• Xây dựng giao diện quản trị (Admin UI) tùy chỉnh bằng Django Admin
+với Tailwind/Bootstrap.
+• Tạo model UserAdmin kế thừa AbstractUser, phân quyền root user từ
+.env, xử lý CRUD với quyền riêng biệt.
+• Tích hợp Django với FastAPI để thực hiện:
+• Upload / delete / get tài liệu (PDF, DOCX, TXT) qua API.
+• Tạo và xác thực OTP (8 số) để bảo vệ các thao tác CRUD tài liệu.
+• Quản lý tài liệu thông minh: lưu trữ trên MinIO (S3 bucket), tự động
+cập nhật vào Vector Database (Milvus).
+• Thực hiện chunking, embedding tài liệu và tìm kiếm bằng Hybrid
+Search.
+• Xây dựng giao diện upload tài liệu với drag-drop, preview modal,
+progress bar, toast notification.
+• Cấu hình môi trường dev sử dụng Docker, chia sprint rõ ràng theo mô
+hình Agile/Scrum.
+
+Dự án
+XÂY DỰNG WEBSITE BÁN HÀNG SỬ DỤNG
+REACTJS VÀ PYTHON DJANGO
+2024 - 2025
+Dự án lấy chứng chỉ  tại T3H
+Dự án: xây dựng 1 website bán hàng sử dụng các kiến thức đã được học
+về Framework Django và React.
+Lý do chọn:: website bán hàng hỗ trợ cho việc xây dựng một cách đầy
+đủ và hoàn thiện cách triển khai một dự án fullstack.
+Công nghệ sử dụng:
++ Frontend : Html , css , bootstrap , React Nodejs , Redux.
++ Backend : Python Django Framework.
+Django Rest Framework: Dùng DRF để tạo RESTFUL webservice.
+JWT(JSON Web Token): Dùng JWT để thực hiện đăng nhập, xác thực,
+phân quyền.
++ Database
+MySQL database: sử dụng trên localhost bằng giả lập xampp.
++ Link git : https://github.com/tranminh18/DemoPython
+• Thu thập thông tin từ khách hàng về yêu cầu cụ thể cho trang web
+bán hàng, bao gồm các tính năng như quản lý sản phẩm, giỏ hàng,
+thanh toán, đăng nhập và đăng ký người dùng.
+• Thiết kế giao diện website
+• Sử dụng HTML, CSS và JavaScript để tạo giao diện người dùng (UI)
+dựa trên thiết kế đã được xác định.
+• Tối ưu hóa giao diện để đảm bảo tương tác người dùng mượt mà và
+thân thiện.
+• Xây dựng các tính năng như hiển thị sản phẩm, thêm vào giỏ hàng,
+quản lý giỏ hàng và thanh toán.
+• Thiết kế và triển khai các API để tương tác với cơ sở dữ liệu và cung
+cấp dữ liệu cho phần front-end.
+• Xử lý các yêu cầu từ phía máy khách (client-side) như thêm sản
+phẩm vào giỏ hàng, xử lý thanh toán và quản lý người dùng.
+• Hoàn thiện website, đồng thời kiểm tra tính ổn định và tính năng của
+trang web trên nhiều trình duyệt và thiết bị khác nhau
+• Triển khai trang web lên môi trường thật. Đồng thời theo dõi bảo
+đảm trang web hoạt động một cách ổn định.
+• Bàn giao Webiste tới khách hàng. Đồng thời tiếp tục theo dõi và
+phân tích dữ liệu về hoạt động của người dùng để cải thiện trải
+nghiệm và tăng hiệu suất trang web.
+© topcv.vn
