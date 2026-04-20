@@ -1,0 +1,8 @@
+groq
+python-dotenv
+sentence-transformers
+faiss-cpu
+fastapi
+uvicorn
+python-jose
+numpy
