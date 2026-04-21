@@ -2,20 +2,17 @@ from fastapi import FastAPI, HTTPException, Depends
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pydantic import BaseModel
 from groq import Groq
-from sentence_transformers import SentenceTransformer
-import faiss, numpy as np
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
 import sqlite3, hashlib, os
 from datetime import datetime, timedelta
 from jose import jwt, JWTError
 
 app = FastAPI(title="RAG API with Auth")
 security = HTTPBearer()
-
 SECRET_KEY = "change-me-in-production"
 ALGORITHM = "HS256"
-
-# Setup RAG
-embed_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 if os.path.exists("sample.txt"):
     chunks = open("sample.txt").read().split("\n\n")
@@ -23,9 +20,14 @@ if os.path.exists("sample.txt"):
 else:
     chunks = ["RAG la Retrieval Augmented Generation.", "Python la ngon ngu lap trinh."]
 
-vectors = embed_model.encode(chunks).astype("float32")
-index = faiss.IndexFlatL2(vectors.shape[1])
-index.add(vectors)
+vectorizer = TfidfVectorizer()
+tfidf_matrix = vectorizer.fit_transform(chunks)
+
+def search_chunks(question, k=2):
+    q_vec = vectorizer.transform([question])
+    scores = cosine_similarity(q_vec, tfidf_matrix)[0]
+    top_idx = np.argsort(scores)[::-1][:k]
+    return [chunks[i] for i in top_idx]
 
 def hash_pw(pw): return hashlib.sha256(pw.encode()).hexdigest()
 def verify_pw(plain, hashed): return hash_pw(plain) == hashed
@@ -101,9 +103,7 @@ def login(req: LoginRequest):
 
 @app.post("/chat")
 def chat(req: ChatRequest, user=Depends(get_current_user)):
-    q_vec = embed_model.encode([req.question]).astype("float32")
-    _, idx = index.search(q_vec, k=2)
-    context = "\n".join([chunks[i] for i in idx[0]])
+    context = "\n".join(search_chunks(req.question))
     res = groq_client.chat.completions.create(
         model="llama-3.1-8b-instant",
         messages=[{"role":"user","content":f"Context:\n{context}\n\nQ: {req.question}"}]
