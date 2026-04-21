@@ -62,7 +62,7 @@ class ChatRequest(BaseModel):
     question: str
 
 def get_db():
-    return sqlite3.connect("api_users.db")
+    return sqlite3.connect("api_users.db", check_same_thread=False, timeout=10)
 
 def init_db():
     conn = get_db()
