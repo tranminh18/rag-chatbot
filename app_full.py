@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from groq import Groq
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -10,6 +11,12 @@ from datetime import datetime, timedelta
 from jose import jwt, JWTError
 
 app = FastAPI(title="RAG API with Auth")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 security = HTTPBearer()
 SECRET_KEY = "change-me-in-production"
 ALGORITHM = "HS256"
