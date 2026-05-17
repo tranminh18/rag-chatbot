@@ -2,6 +2,9 @@ groq
 python-dotenv
 fastapi
 uvicorn
-python-jose
 numpy
 scikit-learn
+sentence-transformers
+faiss-cpu
+pdfplumber
+python-multipart
